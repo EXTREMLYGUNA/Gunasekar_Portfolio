@@ -218,3 +218,14 @@ body.dark-mode {
   background-color: #121212;
   color: #eee;
 }
+
+.success-message {
+  color: green;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+.error-message {
+  color: red;
+  font-weight: bold;
+  margin-top: 1rem;
+}

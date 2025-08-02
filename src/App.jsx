@@ -4,8 +4,8 @@ import Projects from './Components/Projects.jsx';
 import Education from './Components/Education.jsx';
 import Navbar from './Components/Navbar.jsx';
 import About from './Components/About.jsx';
-import Contacts from './Components/Contact.jsx';
 import Links from './Components/Links.jsx';
+import ContactForm from './Components/ContactForm.jsx';
 
 function App() {
 
@@ -20,7 +20,7 @@ function App() {
       <About/>
       <Projects/>
       <Education/>
-      <Contacts/>
+      <ContactForm/>
 
   <footer>
     <Links/>
