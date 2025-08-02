@@ -8,87 +8,9 @@
   <link rel="icon" href="./src/assets/GUNASEKAR.jpg" >
 </head>
 <body>
-  <header>
-    <h1>GUNASEKAR.V</h1>
-    <p id="typing-text"></p>
-    <button id="toggle-mode">Toggle Dark Mode</button>
 
-  </header>
+  <div id="root"></div>
 
-  <nav>
-    <a href="#about">About</a>
-    <a href="#projects">Projects</a>
-    <a href="#contact">Contact</a>
-    <a href="#education">Education</a>
-    <a href="#links" >Links</a>
-  </nav>
-
-  <section id="about">
-    <h2>About Me</h2>
-    <p>I’m a passionate developer turning ideas into real-world solutions.</p>
-    <a title="Tasks" href="https://gunasekar-resume.netlify.app/" target="_blank" class="resume" rel="noopener"><h3>Resume</h3></a>
-  </section>
-
-  <section id="projects">
-    <h2>Projects</h2>
-    <div>
-      <button onclick="filterProjects('all')">All</button>
-      <button onclick="filterProjects('web')">Tasks</button>
-      <button onclick="filterProjects('app')">Capstone Project</button>
-    </div>
-    <ul id="project-list">
-      <li data-type="web"><a title="Tasks" href="https://gunasekar-resume.netlify.app/" target="_blank" class="college" rel="noopener">Resume</a></li>
-      <li data-type="web"><a title="Tasks" href="https://shopping-card-projects.netlify.app/" target="_blank" class="college" rel="noopener" >Shopping Card</a></li>
-      <li data-type="web"><a title="Tasks" href="https://calculator-guvi-task.netlify.app/" target="_blank" class="college" rel="noopener" >Calculator</a></li>
-      <li data-type="web"><a title="Tasks" href="https://redux-project1.netlify.app/" target="_blank" class="college" rel="noopener" >Redux</a></li>
-      <li data-type="web"><a title="Tasks" href="https://axios-projects.netlify.app/" target="_blank" class="college" rel="noopener" >Axios</a></li>
-      <li data-type="web"><a title="Tasks" href="https://survey-form-projects.netlify.app/" target="_blank" class="college" rel="noopener" >Survey Form</a></li>
-      <li data-type="web"><a title="Tasks" href="https://price-card-reactguvi.netlify.app/" target="_blank" class="college" rel="noopener" >Price Card</a></li>
-      <li data-type="web"><a title="Tasks" href="https://github-creation.netlify.app/" target="_blank" class="college" rel="noopener" >Github Creation</a></li>
-      <li data-type="web"><a title="Tasks" href="https://react-router-dom-projects.netlify.app/" target="_blank" class="college" rel="noopener" >React Router Dom</a></li>
-      <li data-type="web"><a title="Tasks" href="https://guna-callback.netlify.app/" target="_blank" class="college" rel="noopener" >Callback</a></li>
-      <li data-type="web"><a title="Tasks" href="https://website-create-progress.netlify.app/" target="_blank" class="college" rel="noopener" >Website creation</a></li>
-      <li data-type="web"><a title="Tasks" href="https://todo-taskk.netlify.app/" target="_blank" class="college" rel="noopener" >ToDo</a></li>
-      <li data-type="web"><a title="Tasks" href="https://react-usecontextt.netlify.app/" target="_blank" class="college" rel="noopener" >React Usecontext</a></li>
-      <li data-type="web"><a title="Tasks" href="https://landing-page-guvi.netlify.app/" target="_blank" class="college" rel="noopener" >Landing Page</a></li>
-      <li data-type="web"><a title="Tasks" href="https://html-manipulation-form.netlify.app/" target="_blank" class="college" rel="noopener" >Html Manipulation Form</a></li>
-      <li data-type="web"><a title="Tasks" href="https://promise-task-api-1.netlify.app/" target="_blank" class="college" rel="noopener" >Promise creation</a></li>
-      <li data-type="web"><a title="Tasks" href="https://promise-task-api-3.netlify.app/" target="_blank" class="college" rel="noopener" >Promise</a></li>
-      <li data-type="app"><a title="College placement" href="https://college-placement-recruitment.netlify.app/login" target="_blank" class="college" rel="noopener" >College Placement System</a></li>
-    </ul>
-  </section>
-
-  <section id="education" >
-    <h2>Education</h2>
-    <ul id="education-list">
-      <li data-type="web" ><a href='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhqb_IMCgZXlIaLpLQqjdaPda234rEpSf9lA6RWTlpchrn8AyXAZjTdadtugppqpNyE7t_6FtyyGTvDD7IVqPa9r1268jDJEUjjQIYNFZZL_VOzNrKmBFwbrL4sRCI6_4B_fp0WSUIt1FamdFLojOMqwQ_3DF1EfJ9qm0FEigJldOJIqydrGk-jwa6Y2Wo/s9216/SSLC.jpg'                  target='_blank' class="college" rel="noopener" >SSLC         </a></li>
-      <li data-type="web" ><a href='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgl7Vs0Djp18lrvYgGZfV39rK3DHOvaLDWo-IMcxLyT2xn-iNwQ1rTj6zFvpGpgzF5Msdw2V9ksy75d-dCZ7OrAynbDnVkyBvwmMBEJP-sBYrjwEbiUmX-ZFVnqqaOwDFDBKl7q_YIZaUIke-r3ODltHCeuAGhrtBep5bAhP7K2nGuMaC0J_O-DckbbOpQ/s8941/HSC.jpg'                   target='_blank' class="college" rel="noopener" >HSCC         </a></li>
-      <li data-type="web" ><a href='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5jHNX_3Yhka3__0f19BUlb8Y52F8lKEawcJ-X69Yplx8r53K9clBTgZq2bi-gxQ81QrkNmoQFcMQhoQER3RMR_oi7oELKlo6QJVftle5ZvmhqeCXh4xHbJp97dncfJwc4_k-HQPxTpJlD5qRwjB9y5DDufyRQ-MvbjUB1QAuHeM1KBRmi9Hs_eOmZ2R4/s4080/Diploma%20Certificate.jpg' target='_blank' class="college" rel="noopener" >DIPLOMA(EEE) </a></li>
-      <li data-type="web" ><a href='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQ_XCS1o21jhGLrpJKzutV2dWkSfhwnGtSvLwKAPkQBAQUOngB9vD6NK4A4XKg04hHmpx4yIioo0rKnfNM2tSpNrGeRV5MlQ_RCMNVChzo3HPvj5zLoVXE0NgmyET-6s5reYRyWLK2DXP_UWWqS078ee0-A35Fa1z8DDcF0jaNnW1v8JtIX0v39HLl_ZI/s3894/DIPLOMA.jpg'               target='_blank' class='college' rel="noopener" >Consolidate  </a></li>
-     </ul>
-  </section>
-
-  <section id="contact">
-    <h2>Contact</h2>
-    <form id="contact-form">
-      <h4><img title="mobile" src="https://static.vecteezy.com/system/resources/previews/004/956/037/original/phone-call-icon-vector.jpg" width="50px" height="50px"  ><p style="display:inline;width: 150px;">6380720250 / 8148932075</p></h4>
-      <h4><img title="mail" src="https://static.vecteezy.com/system/resources/previews/020/009/614/non_2x/email-and-mail-icon-black-free-png.png" width="50px" height="50px"  ><p style="display:inline;width: 150px;">gunasekar17329777557amma@gmail.com</p></h4>
-      <input type="text" placeholder="Your Name" required>
-      <input type="email" placeholder="Your Email" required>
-      <textarea placeholder="Message" required></textarea>
-      <button type="submit">Send</button>
-    </form>
-  </section>
-
-
-  <footer>
-    <section id="links">
-      <a href='https://www.linkedin.com/in/gunasekar-v-0a1054288' class='LinkedIn' target="_blank" rel="noopener" ><img title="LinkedIn" src='https://creazilla-store.fra1.digitaloceanspaces.com/icons/7912623/linkedin-icon-md.png' style="height: 58px;width: 58px;margin-bottom: -3px;" /></a>
-      <a href='https://github.com/EXTREMLYGUNA' class='Github' target="_blank" rel="noopener" >                    <img title="Github" src='https://cdn-icons-png.flaticon.com/512/25/25231.png' style="height: 50px;width: 50px;margin-left: 10px;" /></a>
-  </section>
-      <p>&copy; 2025 </p>
-  </footer>
-
-  <script src="./src/App.jsx"></script>
+  <script type="module" src="./src/main.jsx"></script>
 </body>
 </html>

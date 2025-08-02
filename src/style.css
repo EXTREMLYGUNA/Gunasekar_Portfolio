@@ -197,3 +197,24 @@ body.dark-mode ul#education-list li {
   border-radius: 4px;
   cursor: pointer;
 }
+
+.toggle-button {
+  padding: 8px 16px;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: #007acc;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.toggle-button:hover {
+  background-color: #005fa3;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+  background-color: #121212;
+  color: #eee;
+}
