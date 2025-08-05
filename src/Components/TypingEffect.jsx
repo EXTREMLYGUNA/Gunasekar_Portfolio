@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 
 const words = [
   "Hi 👋",
-  "I am GUNASEKAR",
+  "I am GUNASEKAR V",
   "I recently started in MERN-Full stack web developer",
   "Previously I am working style for manufacturing company at CEAT Tyres Ltd",
   "EDUCATION (Electrical and Electronics Engineering)",
@@ -44,7 +44,16 @@ function TypingEffect() {
   }, [currentWordIdx, letterIdx, isDeleting]);
 
   return (
-    <span>{displayedText}</span>
+      <span className="typing-effect"
+      style={{  display: 'inline-block',
+                minWidth: '400px',
+                whiteSpace: 'pre',
+                transition: 'min-width 0.2s ease-in-out',
+                fontSize: '1.2rem',
+                color: '#333', }}
+      >
+        {displayedText}
+      </span>
   );
 }
 

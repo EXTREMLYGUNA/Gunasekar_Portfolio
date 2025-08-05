@@ -32,7 +32,7 @@ const Education = () => {
       <div>
         <button
           onClick={() => handleFilterClick('web')}
-          style={{ fontWeight: activeFilter === 'web' ? 'bold' : 'normal' }}>Open</button>
+          style={{ fontWeight: activeFilter === 'web' ? 'bold' : 'normal' }}><h3>Open</h3></button>
         </div>
 
         {activeFilter === null ? (

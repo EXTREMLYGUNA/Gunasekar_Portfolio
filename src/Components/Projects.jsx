@@ -48,17 +48,17 @@ const Projects = () => {
         <button
           onClick={() => handleFilterClick('all')}
           style={{ fontWeight: activeFilter === 'all' ? 'bold' : 'normal' }}>
-          All
+          <h3>All</h3>
         </button>
         <button
           onClick={() => handleFilterClick('web')}
           style={{ fontWeight: activeFilter === 'web' ? 'bold' : 'normal' }}>
-          Tasks
+          <h3>Tasks</h3>
         </button>
         <button
           onClick={() => handleFilterClick('app')}
           style={{ fontWeight: activeFilter === 'app' ? 'bold' : 'normal' }}>
-          Capstone Project
+          <h3>Capstone Project</h3>
         </button>
       </div>
 
