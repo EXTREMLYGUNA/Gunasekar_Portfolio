@@ -25,10 +25,11 @@ const ContactForm = () => {
       .then(() => {
         setStatusMessage(`Message sent successfully !`);
         setFormData({ name: '', email: '', message: '' });
+        setIsSuccess(true);
       })
       .catch((error) => {
         setStatusMessage('Failed to send message, please try again later.');
-        console.error('EmailJS error:', error);
+        setIsSuccess(false);
       });
   };
 
@@ -66,7 +67,7 @@ const ContactForm = () => {
         <br />
         <button type="submit">Send</button>
                 {statusMessage && (
-            <p className={isSuccess === true ? 'error-message' : 'success-message'}>
+            <p className={isSuccess === true ? 'success-message' : 'error-message'}>
             {statusMessage}
             </p>
         )}
