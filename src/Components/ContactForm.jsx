@@ -67,7 +67,7 @@ const ContactForm = () => {
         <br />
         <button type="submit">Send</button>
                 {statusMessage && (
-            <p className={isSuccess === true ? 'success-message' : 'error-message'}>
+            <p className={isSuccess ? 'success-message' : 'error-message'}>
             {statusMessage}
             </p>
         )}
